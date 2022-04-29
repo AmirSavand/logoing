@@ -1,0 +1,41 @@
+@mixin logging-vertical-split($name, $size, $movement, $image) {
+  @keyframes even {
+    0% {
+      transform: translatey(0);
+    }
+    12.5% {
+      transform: translatey($movement);
+    }
+    25% {
+      transform: translatey(0px);
+    }
+    37.5% {
+      transform: translatey(-$movement);
+    }
+    50%,
+    100% {
+      transform: translatey(0);
+    }
+  }
+
+  .#{$name} {
+    height: $size;
+    width: $size;
+    display: flex;
+
+    > div {
+      background-image: url($image);
+      width: 25%;
+      background-size: $size $size;
+      background-repeat: no-repeat;
+      animation: even 2s ease-in-out infinite;
+
+      @for $i from 1 through 4 {
+        &:nth-child(#{$i}) {
+          animation-delay: 250ms * $i;
+          background-position-x: calc((-#{$size} / 4) * (#{$i} - 1));
+        }
+      }
+    }
+  }
+}

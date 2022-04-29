@@ -1,0 +1,24 @@
+{
+  "version": "0.1.15",
+  "source": "temp",
+  "output": "home",
+  "template": true,
+  "baseTemplate": null,
+  "nameAsTitle": false,
+  "firstLineAsTitle": false,
+  "cssVariables": {
+    "--primary": "cornflowerblue",
+    "--body-color": "#666",
+    "--body-bg": "ivory",
+    "--heading-color": "#444",
+    "--content-bg": "white"
+  },
+  "extraHead": [
+    "<meta content=\"Savand Bros\" name=\"author\">",
+    "<meta content=\"Give your logo a sexy loading effect.\" name=\"description\">",
+    "<link href=\"/favicon.png\" rel=\"icon\" sizes=\"1024x1024\" type=\"image/png\">",
+    "<link href=\"/style.css\" rel=\"stylesheet\">"
+  ],
+  "headingsId": true,
+  "headingsIdSlugify": true
+}

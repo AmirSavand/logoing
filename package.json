@@ -1,0 +1,28 @@
+{
+  "name": "logoing",
+  "version": "0.0.1",
+  "author": "Amir Savand",
+  "license": "GPL-3.0",
+  "description": "Give your logo a sexy loading effect.",
+  "homepage": "https://logoing.savandbros.com",
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "animation",
+    "loading",
+    "effect"
+  ],
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build-home": "node bin/home.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0",
+    "htmlmin": "^0.0.7",
+    "index.md": "^0.1.18",
+    "sass": "^1.51.0"
+  }
+}
