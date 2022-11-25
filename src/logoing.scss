@@ -1,4 +1,4 @@
-@mixin logging-vertical-split($name, $size, $movement, $image) {
+@mixin logging-vertical-split($name, $size, $movement, $duration, $image) {
   @keyframes even {
     0% {
       transform: translatey(0);
@@ -28,7 +28,7 @@
       width: 25%;
       background-size: $size $size;
       background-repeat: no-repeat;
-      animation: even 2s ease-in-out infinite;
+      animation: even $duration ease-in-out infinite;
 
       @for $i from 1 through 4 {
         &:nth-child(#{$i}) {

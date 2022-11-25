@@ -1,9 +1,9 @@
 {
   "name": "logoing",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Amir Savand",
   "license": "GPL-3.0",
-  "description": "Give your logo a sexy loading effect.",
+  "description": "Give your logo a fancy loading effect.",
   "homepage": "https://logoing.savandbros.com",
   "keywords": [
     "css",
@@ -23,6 +23,6 @@
     "fs-extra": "^10.1.0",
     "htmlmin": "^0.0.7",
     "index.md": "^0.1.18",
-    "sass": "^1.51.0"
+    "sass": "^1.56.1"
   }
 }
