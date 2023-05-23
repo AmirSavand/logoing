@@ -1,6 +1,6 @@
 {
   "name": "logoing",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Amir Savand",
   "license": "GPL-3.0",
   "description": "Give your logo a fancy loading effect.",
@@ -11,6 +11,7 @@
     "sass",
     "animation",
     "loading",
+    "logo",
     "effect"
   ],
   "files": [
@@ -20,9 +21,9 @@
     "build-home": "node bin/home.js"
   },
   "devDependencies": {
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.1",
     "htmlmin": "^0.0.7",
     "index.md": "^0.1.18",
-    "sass": "^1.56.1"
+    "sass": "^1.62.1"
   }
 }

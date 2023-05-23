@@ -1,6 +1,8 @@
 # [Logoing](https://logoing.savandbros.com)
 
-Give your logo a sexy loading effect.
+[![npm](https://img.shields.io/npm/v/logoing)](https://www.npmjs.com/package/logoing)
+
+Give your logo a fancy loading effect.
 
 ## Demo
 
@@ -23,6 +25,7 @@ Your SCSS file:
   "loading", // Wrapper class name
   128px, // Logo size (square)
   2rem, // Animation movement
+  1s, // Animation duration
   "https://picsum.photos/128/128", // Logo source
 );
 ```
@@ -47,4 +50,4 @@ Your HTML file:
 
 ## About
 
-Made with 💖 by [Savand Bros](https://savandbros.com) &copy; 2022.
+Made with 💖 by [Savand Bros](https://savandbros.com) &copy; 2023.
