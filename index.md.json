@@ -15,7 +15,7 @@
   },
   "extraHead": [
     "<meta content=\"Savand Bros\" name=\"author\">",
-    "<meta content=\"Give your logo a sexy loading effect.\" name=\"description\">",
+    "<meta content=\"Give your logo a fancy loading effect.\" name=\"description\">",
     "<link href=\"/favicon.png\" rel=\"icon\" sizes=\"1024x1024\" type=\"image/png\">",
     "<link href=\"/style.css\" rel=\"stylesheet\">"
   ],

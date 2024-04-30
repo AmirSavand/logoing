@@ -1,6 +1,6 @@
 @import "../src/logoing";
 
-@include logging-vertical-split("loading", 128px, 2rem, 1s, "/favicon.png");
+@include logoing-vertical-split(".loading", 128px, 2rem, 1s, "/favicon.png");
 
 .loading {
   margin: auto
